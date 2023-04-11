@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/cvback2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:background="@drawable/bordure"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/tittle_languages" />
+
+    <ListView
+        android:id="@+id/ListViewLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_language"/>
+
+    <TextView
+        android:id="@+id/textViewProjets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/bordure"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:text="@string/tittle_projets" />
+
+    <ListView
+        android:id="@+id/ListViewProjets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_projet"/>
+
+</LinearLayout>

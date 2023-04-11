@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MonCVApp</string>
+    <string name="myname">MAZUC Arthur</string>
+    <string name="phone">06 46 25 89 85</string>
+    <string name="email">arthur.mazuc@hotmail.fr</string>
+    <string name="adresse">16 rue Henri Rouart, 94510 La-Queue-en-Brie</string>
+    <string name="tittle_experiences">Expériences</string>
+    <string name="tittle_formations">Formations</string>
+    <string name="tittle_competences">Compétences</string>
+    <string name="tittle_languages">Langages</string>
+    <string name="tittle_projets">Projets</string>
+    <string name="lien">Lien</string>
+</resources>
